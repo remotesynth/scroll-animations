@@ -1,0 +1,1 @@
+Just some examples of adding scroll animations to a basic one page design from using plain JavaScript to some popular libraries.
