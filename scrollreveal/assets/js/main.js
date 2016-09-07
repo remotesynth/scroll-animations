@@ -96,6 +96,6 @@
 })(jQuery);
 
 function afterRevealSummary(e) {
-	var b = baffle('#summaryTitle').text(currentText => 'An Animated Classic');
+	var b = baffle('#summaryTitle').text(function(currentText) { return 'An Animated Classic'});
 	b.reveal(1000);
 }
